@@ -1,4 +1,0 @@
-git init
-git remote set-url origin https://github.com/luize00/mips_monociclo.git
-git pull origin main
-git checkout main
