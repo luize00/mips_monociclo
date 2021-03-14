@@ -325,6 +325,20 @@
       </elementAttributes>
       <pos x="520" y="-800"/>
     </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>Operação ?????</string>
+        </entry>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+      </elementAttributes>
+      <pos x="300" y="-1540"/>
+    </visualElement>
   </visualElements>
   <wires>
     <wire>
@@ -674,6 +688,10 @@
     <wire>
       <p1 x="-300" y="-800"/>
       <p2 x="-300" y="-460"/>
+    </wire>
+    <wire>
+      <p1 x="300" y="-1540"/>
+      <p2 x="300" y="-1280"/>
     </wire>
     <wire>
       <p1 x="300" y="-1280"/>

@@ -177,12 +177,12 @@
       <elementName>In</elementName>
       <elementAttributes>
         <entry>
-          <string>Label</string>
-          <string>Ainvert</string>
-        </entry>
-        <entry>
           <string>rotation</string>
           <rotation rotation="3"/>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>Ainvert</string>
         </entry>
       </elementAttributes>
       <pos x="20" y="-1520"/>
@@ -304,6 +304,20 @@
       <elementName>mips_ULA4bits_aberta.dig</elementName>
       <elementAttributes/>
       <pos x="320" y="-980"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>Operação ??????</string>
+        </entry>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+      </elementAttributes>
+      <pos x="300" y="-1540"/>
     </visualElement>
   </visualElements>
   <wires>
@@ -654,6 +668,10 @@
     <wire>
       <p1 x="-300" y="-800"/>
       <p2 x="-300" y="-460"/>
+    </wire>
+    <wire>
+      <p1 x="300" y="-1540"/>
+      <p2 x="300" y="-1280"/>
     </wire>
     <wire>
       <p1 x="300" y="-1280"/>
