@@ -455,26 +455,6 @@
       </elementAttributes>
       <pos x="180" y="-760"/>
     </visualElement>
-    <visualElement>
-      <elementName>In</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>Less</string>
-        </entry>
-      </elementAttributes>
-      <pos x="-140" y="-1240"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Out</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>CarryOut</string>
-        </entry>
-      </elementAttributes>
-      <pos x="520" y="-580"/>
-    </visualElement>
   </visualElements>
   <wires>
     <wire>
@@ -666,8 +646,8 @@
       <p2 x="840" y="-1220"/>
     </wire>
     <wire>
-      <p1 x="500" y="-580"/>
-      <p2 x="520" y="-580"/>
+      <p1 x="280" y="-580"/>
+      <p2 x="500" y="-580"/>
     </wire>
     <wire>
       <p1 x="440" y="-1480"/>
@@ -712,10 +692,6 @@
     <wire>
       <p1 x="720" y="-600"/>
       <p2 x="840" y="-600"/>
-    </wire>
-    <wire>
-      <p1 x="-140" y="-1240"/>
-      <p2 x="280" y="-1240"/>
     </wire>
     <wire>
       <p1 x="440" y="-1500"/>
@@ -903,7 +879,7 @@
     </wire>
     <wire>
       <p1 x="280" y="-1460"/>
-      <p2 x="280" y="-1240"/>
+      <p2 x="280" y="-580"/>
     </wire>
     <wire>
       <p1 x="540" y="-1620"/>
