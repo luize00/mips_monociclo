@@ -238,7 +238,7 @@
         </entry>
         <entry>
           <string>Output Splitting</string>
-          <string>1,1</string>
+          <string>8,8</string>
         </entry>
       </elementAttributes>
       <pos x="0" y="-240"/>
@@ -252,7 +252,7 @@
         </entry>
         <entry>
           <string>Output Splitting</string>
-          <string>1,1</string>
+          <string>8,8</string>
         </entry>
       </elementAttributes>
       <pos x="20" y="420"/>
