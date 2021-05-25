@@ -209,6 +209,27 @@
       </elementAttributes>
       <pos x="-1460" y="-1520"/>
     </visualElement>
+    <visualElement>
+      <elementName>Testcase</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Testdata</string>
+          <testData>
+            <dataString>	Operação	A	B	Ainvert		Binvert		CarryIn		Less		Result3		Result2		Result1		Result0
+loop(a,4)
+	loop(b,4)
+		0	(a)	(b)	0	0	0	0	bits(4,a&amp;b)
+		1	(a)	(b)	0	0	0	0	bits(4,a|b)
+		10	(a)	(b)	0	0	0	0	bits(4,a+b)
+		10	(a)	(b)	0	1	1	0	bits(4,a-b)
+		0	(a)	(b)	1	1	0	0	bits(4,~(a|b))
+	end loop
+end loop</dataString>
+          </testData>
+        </entry>
+      </elementAttributes>
+      <pos x="-480" y="-1720"/>
+    </visualElement>
   </visualElements>
   <wires>
     <wire>

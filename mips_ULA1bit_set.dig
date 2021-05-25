@@ -187,6 +187,16 @@ end loop</dataString>
       </elementAttributes>
       <pos x="-860" y="-1120"/>
     </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>Set</string>
+        </entry>
+      </elementAttributes>
+      <pos x="140" y="-1400"/>
+    </visualElement>
   </visualElements>
   <wires>
     <wire>
@@ -318,6 +328,10 @@ end loop</dataString>
       <p2 x="-760" y="-1400"/>
     </wire>
     <wire>
+      <p1 x="-260" y="-1400"/>
+      <p2 x="140" y="-1400"/>
+    </wire>
+    <wire>
       <p1 x="-760" y="-1560"/>
       <p2 x="-720" y="-1560"/>
     </wire>
@@ -364,6 +378,10 @@ end loop</dataString>
     <wire>
       <p1 x="-260" y="-1520"/>
       <p2 x="-260" y="-1480"/>
+    </wire>
+    <wire>
+      <p1 x="-260" y="-1480"/>
+      <p2 x="-260" y="-1400"/>
     </wire>
     <wire>
       <p1 x="-1160" y="-1620"/>

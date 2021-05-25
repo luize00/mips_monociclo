@@ -46,86 +46,6 @@
       <pos x="160" y="-1520"/>
     </visualElement>
     <visualElement>
-      <elementName>Out</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>Saida0</string>
-        </entry>
-      </elementAttributes>
-      <pos x="580" y="-1400"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Out</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>Saida1</string>
-        </entry>
-      </elementAttributes>
-      <pos x="580" y="-1360"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Out</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>Saida2</string>
-        </entry>
-      </elementAttributes>
-      <pos x="580" y="-1320"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Out</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>Saida3</string>
-        </entry>
-      </elementAttributes>
-      <pos x="580" y="-1280"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Out</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>Saida4</string>
-        </entry>
-      </elementAttributes>
-      <pos x="580" y="-1020"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Out</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>Saida5</string>
-        </entry>
-      </elementAttributes>
-      <pos x="580" y="-980"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Out</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>Saida6</string>
-        </entry>
-      </elementAttributes>
-      <pos x="580" y="-940"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Out</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>Saida7</string>
-        </entry>
-      </elementAttributes>
-      <pos x="580" y="-900"/>
-    </visualElement>
-    <visualElement>
       <elementName>mips_ULA4bits_aberta.dig</elementName>
       <elementAttributes/>
       <pos x="320" y="-1380"/>
@@ -155,6 +75,10 @@
         <entry>
           <string>Label</string>
           <string>Operação</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>2</int>
         </entry>
       </elementAttributes>
       <pos x="300" y="-1540"/>
@@ -225,19 +149,130 @@
       </elementAttributes>
       <pos x="-100" y="-1440"/>
     </visualElement>
+    <visualElement>
+      <elementName>Const</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Value</string>
+          <long>0</long>
+        </entry>
+      </elementAttributes>
+      <pos x="120" y="-900"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Testcase</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Testdata</string>
+          <testData>
+            <dataString>	Operação	A	B	Ainvert		Binvert		CarryIn		Less		Result7		Result6		Result5		Result4		Result3		Result2		Result1		Result0
+loop(a,8)
+	loop(b,8)
+		0	(a)	(b)	0	0	0	0	bits(8,a&amp;b)
+		1	(a)	(b)	0	0	0	0	bits(8,a|b)
+		10	(a)	(b)	0	0	0	0	bits(8,a+b)
+		10	(a)	(b)	0	1	1	0	bits(8,a-b)
+		0	(a)	(b)	1	1	0	0	bits(8,~(a|b))
+	end loop
+end loop</dataString>
+          </testData>
+        </entry>
+      </elementAttributes>
+      <pos x="580" y="-1600"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>Result0</string>
+        </entry>
+      </elementAttributes>
+      <pos x="580" y="-1400"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>Result1</string>
+        </entry>
+      </elementAttributes>
+      <pos x="580" y="-1360"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>Result2</string>
+        </entry>
+      </elementAttributes>
+      <pos x="580" y="-1320"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>Result3</string>
+        </entry>
+      </elementAttributes>
+      <pos x="580" y="-1280"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>Result4</string>
+        </entry>
+      </elementAttributes>
+      <pos x="580" y="-1020"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>Result5</string>
+        </entry>
+      </elementAttributes>
+      <pos x="580" y="-980"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>Result6</string>
+        </entry>
+      </elementAttributes>
+      <pos x="580" y="-940"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>Result7</string>
+        </entry>
+      </elementAttributes>
+      <pos x="580" y="-900"/>
+    </visualElement>
   </visualElements>
   <wires>
     <wire>
-      <p1 x="280" y="-900"/>
+      <p1 x="380" y="-900"/>
+      <p2 x="480" y="-900"/>
+    </wire>
+    <wire>
+      <p1 x="120" y="-900"/>
       <p2 x="320" y="-900"/>
     </wire>
     <wire>
       <p1 x="560" y="-900"/>
       <p2 x="580" y="-900"/>
-    </wire>
-    <wire>
-      <p1 x="380" y="-900"/>
-      <p2 x="480" y="-900"/>
     </wire>
     <wire>
       <p1 x="80" y="-1380"/>
@@ -256,12 +291,12 @@
       <p2 x="320" y="-1320"/>
     </wire>
     <wire>
-      <p1 x="560" y="-1320"/>
-      <p2 x="580" y="-1320"/>
-    </wire>
-    <wire>
       <p1 x="380" y="-1320"/>
       <p2 x="540" y="-1320"/>
+    </wire>
+    <wire>
+      <p1 x="560" y="-1320"/>
+      <p2 x="580" y="-1320"/>
     </wire>
     <wire>
       <p1 x="-420" y="-1160"/>
@@ -270,6 +305,10 @@
     <wire>
       <p1 x="-320" y="-1260"/>
       <p2 x="320" y="-1260"/>
+    </wire>
+    <wire>
+      <p1 x="280" y="-940"/>
+      <p2 x="320" y="-940"/>
     </wire>
     <wire>
       <p1 x="380" y="-940"/>
@@ -440,12 +479,12 @@
       <p2 x="20" y="-960"/>
     </wire>
     <wire>
-      <p1 x="280" y="-1220"/>
-      <p2 x="280" y="-900"/>
-    </wire>
-    <wire>
       <p1 x="440" y="-1300"/>
       <p2 x="440" y="-1220"/>
+    </wire>
+    <wire>
+      <p1 x="280" y="-1220"/>
+      <p2 x="280" y="-940"/>
     </wire>
     <wire>
       <p1 x="540" y="-1400"/>
