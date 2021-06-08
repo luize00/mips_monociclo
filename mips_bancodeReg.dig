@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<circuit>
+  <version>1</version>
+  <attributes/>
+  <visualElements>
+    <visualElement>
+      <elementName>mips_regleitura.dig</elementName>
+      <elementAttributes/>
+      <pos x="20" y="40"/>
+    </visualElement>
+    <visualElement>
+      <elementName>mips_mux32.dig</elementName>
+      <elementAttributes/>
+      <pos x="260" y="-100"/>
+    </visualElement>
+  </visualElements>
+  <wires/>
+  <measurementOrdering/>
+</circuit>
