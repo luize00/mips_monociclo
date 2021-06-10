@@ -4,14 +4,19 @@
   <attributes/>
   <visualElements>
     <visualElement>
-      <elementName>mips_regleitura.dig</elementName>
-      <elementAttributes/>
-      <pos x="20" y="40"/>
-    </visualElement>
-    <visualElement>
       <elementName>mips_mux32.dig</elementName>
       <elementAttributes/>
-      <pos x="260" y="-100"/>
+      <pos x="640" y="20"/>
+    </visualElement>
+    <visualElement>
+      <elementName>mips_reg32bits.dig</elementName>
+      <elementAttributes/>
+      <pos x="380" y="60"/>
+    </visualElement>
+    <visualElement>
+      <elementName>mips_decodificador.dig</elementName>
+      <elementAttributes/>
+      <pos x="140" y="-380"/>
     </visualElement>
   </visualElements>
   <wires/>
