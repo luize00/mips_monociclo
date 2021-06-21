@@ -10,6 +10,10 @@
           <string>Label</string>
           <string>Entrada0</string>
         </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
       </elementAttributes>
       <pos x="40" y="-120"/>
     </visualElement>
@@ -19,6 +23,10 @@
         <entry>
           <string>Label</string>
           <string>Entrada1</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
         </entry>
       </elementAttributes>
       <pos x="40" y="-60"/>
@@ -30,6 +38,10 @@
           <string>Label</string>
           <string>Entrada2</string>
         </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
       </elementAttributes>
       <pos x="40" y="0"/>
     </visualElement>
@@ -39,6 +51,10 @@
         <entry>
           <string>Label</string>
           <string>Entrada3</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
         </entry>
       </elementAttributes>
       <pos x="40" y="60"/>
@@ -50,6 +66,10 @@
           <string>Label</string>
           <string>Entrada4</string>
         </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
       </elementAttributes>
       <pos x="40" y="120"/>
     </visualElement>
@@ -59,6 +79,10 @@
         <entry>
           <string>Label</string>
           <string>Entrada5</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
         </entry>
       </elementAttributes>
       <pos x="40" y="180"/>
@@ -70,6 +94,10 @@
           <string>Label</string>
           <string>Entrada6</string>
         </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
       </elementAttributes>
       <pos x="40" y="240"/>
     </visualElement>
@@ -79,6 +107,10 @@
         <entry>
           <string>Label</string>
           <string>Entrada7</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
         </entry>
       </elementAttributes>
       <pos x="40" y="300"/>
@@ -90,6 +122,10 @@
           <string>Label</string>
           <string>Entrada8</string>
         </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
       </elementAttributes>
       <pos x="40" y="360"/>
     </visualElement>
@@ -99,6 +135,10 @@
         <entry>
           <string>Label</string>
           <string>Entrada9</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
         </entry>
       </elementAttributes>
       <pos x="40" y="420"/>
@@ -110,6 +150,10 @@
           <string>Label</string>
           <string>Entrada10</string>
         </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
       </elementAttributes>
       <pos x="40" y="480"/>
     </visualElement>
@@ -119,6 +163,10 @@
         <entry>
           <string>Label</string>
           <string>Entrada11</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
         </entry>
       </elementAttributes>
       <pos x="40" y="540"/>
@@ -130,6 +178,10 @@
           <string>Label</string>
           <string>Entrada12</string>
         </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
       </elementAttributes>
       <pos x="40" y="600"/>
     </visualElement>
@@ -139,6 +191,10 @@
         <entry>
           <string>Label</string>
           <string>Entrada13</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
         </entry>
       </elementAttributes>
       <pos x="40" y="660"/>
@@ -150,6 +206,10 @@
           <string>Label</string>
           <string>Entrada14</string>
         </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
       </elementAttributes>
       <pos x="40" y="720"/>
     </visualElement>
@@ -159,6 +219,10 @@
         <entry>
           <string>Label</string>
           <string>Entrada15</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
         </entry>
       </elementAttributes>
       <pos x="40" y="780"/>
@@ -250,6 +314,10 @@
         <entry>
           <string>Label</string>
           <string>Saida</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
         </entry>
       </elementAttributes>
       <pos x="880" y="340"/>

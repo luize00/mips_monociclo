@@ -10,6 +10,10 @@
           <string>Label</string>
           <string>A</string>
         </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
       </elementAttributes>
       <pos x="-40" y="40"/>
     </visualElement>
@@ -19,6 +23,10 @@
         <entry>
           <string>Label</string>
           <string>B</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
         </entry>
       </elementAttributes>
       <pos x="-40" y="100"/>
@@ -30,6 +38,10 @@
           <string>Label</string>
           <string>C</string>
         </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
       </elementAttributes>
       <pos x="-40" y="180"/>
     </visualElement>
@@ -39,6 +51,10 @@
         <entry>
           <string>Label</string>
           <string>D</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
         </entry>
       </elementAttributes>
       <pos x="-40" y="240"/>
@@ -92,6 +108,10 @@
         <entry>
           <string>Label</string>
           <string>Saida</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
         </entry>
       </elementAttributes>
       <pos x="380" y="140"/>
