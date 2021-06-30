@@ -8,7 +8,7 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>A</string>
+          <string>Entrada0</string>
         </entry>
         <entry>
           <string>Bits</string>
@@ -22,7 +22,7 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>B</string>
+          <string>Entrada1</string>
         </entry>
         <entry>
           <string>Bits</string>
@@ -36,7 +36,7 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>C</string>
+          <string>Entrada2</string>
         </entry>
         <entry>
           <string>Bits</string>
@@ -50,7 +50,7 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>D</string>
+          <string>Entrada3</string>
         </entry>
         <entry>
           <string>Bits</string>
@@ -68,7 +68,7 @@
         </entry>
         <entry>
           <string>Label</string>
-          <string>S0</string>
+          <string>Seleção0</string>
         </entry>
       </elementAttributes>
       <pos x="60" y="-20"/>
@@ -82,25 +82,10 @@
         </entry>
         <entry>
           <string>Label</string>
-          <string>S1</string>
+          <string>Seleção1</string>
         </entry>
       </elementAttributes>
       <pos x="200" y="-20"/>
-    </visualElement>
-    <visualElement>
-      <elementName>mips_mux2.dig</elementName>
-      <elementAttributes/>
-      <pos x="80" y="60"/>
-    </visualElement>
-    <visualElement>
-      <elementName>mips_mux2.dig</elementName>
-      <elementAttributes/>
-      <pos x="80" y="200"/>
-    </visualElement>
-    <visualElement>
-      <elementName>mips_mux2.dig</elementName>
-      <elementAttributes/>
-      <pos x="260" y="120"/>
     </visualElement>
     <visualElement>
       <elementName>Out</elementName>
@@ -115,6 +100,21 @@
         </entry>
       </elementAttributes>
       <pos x="380" y="140"/>
+    </visualElement>
+    <visualElement>
+      <elementName>mips_mux2_32bits.dig</elementName>
+      <elementAttributes/>
+      <pos x="80" y="60"/>
+    </visualElement>
+    <visualElement>
+      <elementName>mips_mux2_32bits.dig</elementName>
+      <elementAttributes/>
+      <pos x="80" y="200"/>
+    </visualElement>
+    <visualElement>
+      <elementName>mips_mux2_32bits.dig</elementName>
+      <elementAttributes/>
+      <pos x="260" y="120"/>
     </visualElement>
   </visualElements>
   <wires>

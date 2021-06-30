@@ -153,6 +153,7 @@ loop(a,32)
 		10	(a)	(b)	0	0	0	bits(32,a+b)
 		10	(a)	(b)	0	1	1	bits(32,a-b)
 		0	(a)	(b)	1	1	0	bits(32,~(a|b))
+		11	(a)	(b)	0	1	1	bits(32,a-b&gt;31)
 	end loop
 end loop</dataString>
           </testData>

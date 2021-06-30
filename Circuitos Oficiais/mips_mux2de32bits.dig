@@ -40,6 +40,10 @@
           <string>Label</string>
           <string>Entrada0</string>
         </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
       </elementAttributes>
       <pos x="240" y="40"/>
     </visualElement>
@@ -49,6 +53,10 @@
         <entry>
           <string>Label</string>
           <string>Entrada1</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
         </entry>
       </elementAttributes>
       <pos x="240" y="180"/>
@@ -69,6 +77,10 @@
         <entry>
           <string>Label</string>
           <string>Saida</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
         </entry>
       </elementAttributes>
       <pos x="600" y="120"/>
