@@ -16,7 +16,7 @@
     <visualElement>
       <elementName>mips_decodificador.dig</elementName>
       <elementAttributes/>
-      <pos x="-820" y="740"/>
+      <pos x="-920" y="740"/>
     </visualElement>
     <visualElement>
       <elementName>mips_reg32bits.dig</elementName>
@@ -543,7 +543,7 @@
           <int>32</int>
         </entry>
       </elementAttributes>
-      <pos x="2100" y="1300"/>
+      <pos x="2200" y="1300"/>
     </visualElement>
     <visualElement>
       <elementName>In</elementName>
@@ -590,7 +590,7 @@
           <string>Lê Dado 2</string>
         </entry>
       </elementAttributes>
-      <pos x="2140" y="3160"/>
+      <pos x="2240" y="3160"/>
     </visualElement>
   </visualElements>
   <wires>
@@ -687,6 +687,10 @@
       <p2 x="1800" y="2320"/>
     </wire>
     <wire>
+      <p1 x="2080" y="1300"/>
+      <p2 x="2200" y="1300"/>
+    </wire>
+    <wire>
       <p1 x="-760" y="1300"/>
       <p2 x="-680" y="1300"/>
     </wire>
@@ -697,10 +701,6 @@
     <wire>
       <p1 x="1580" y="1300"/>
       <p2 x="1920" y="1300"/>
-    </wire>
-    <wire>
-      <p1 x="1980" y="1300"/>
-      <p2 x="2100" y="1300"/>
     </wire>
     <wire>
       <p1 x="60" y="20"/>
@@ -1047,8 +1047,8 @@
       <p2 x="1980" y="3160"/>
     </wire>
     <wire>
-      <p1 x="2040" y="3160"/>
-      <p2 x="2140" y="3160"/>
+      <p1 x="2140" y="3160"/>
+      <p2 x="2240" y="3160"/>
     </wire>
     <wire>
       <p1 x="-760" y="860"/>
@@ -1147,16 +1147,16 @@
       <p2 x="1980" y="3180"/>
     </wire>
     <wire>
+      <p1 x="1100" y="3440"/>
+      <p2 x="1980" y="3440"/>
+    </wire>
+    <wire>
       <p1 x="-760" y="880"/>
       <p2 x="-600" y="880"/>
     </wire>
     <wire>
       <p1 x="-620" y="2160"/>
       <p2 x="80" y="2160"/>
-    </wire>
-    <wire>
-      <p1 x="1100" y="3440"/>
-      <p2 x="1980" y="3440"/>
     </wire>
     <wire>
       <p1 x="-760" y="1140"/>
@@ -1668,7 +1668,7 @@
     </wire>
     <wire>
       <p1 x="-1260" y="740"/>
-      <p2 x="-820" y="740"/>
+      <p2 x="-920" y="740"/>
     </wire>
     <wire>
       <p1 x="60" y="2020"/>
@@ -1756,7 +1756,7 @@
     </wire>
     <wire>
       <p1 x="-1020" y="760"/>
-      <p2 x="-820" y="760"/>
+      <p2 x="-920" y="760"/>
     </wire>
     <wire>
       <p1 x="160" y="2040"/>

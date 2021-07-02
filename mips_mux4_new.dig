@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <circuit>
   <version>1</version>
-  <attributes/>
+  <attributes>
+    <entry>
+      <string>Width</string>
+      <int>8</int>
+    </entry>
+  </attributes>
   <visualElements>
     <visualElement>
       <elementName>In</elementName>
@@ -84,7 +89,7 @@
     <visualElement>
       <elementName>mips_mux2.dig</elementName>
       <elementAttributes/>
-      <pos x="260" y="120"/>
+      <pos x="380" y="140"/>
     </visualElement>
     <visualElement>
       <elementName>Out</elementName>
@@ -94,7 +99,7 @@
           <string>Saida</string>
         </entry>
       </elementAttributes>
-      <pos x="380" y="140"/>
+      <pos x="560" y="160"/>
     </visualElement>
   </visualElements>
   <wires>
@@ -103,8 +108,8 @@
       <p2 x="80" y="80"/>
     </wire>
     <wire>
-      <p1 x="140" y="80"/>
-      <p2 x="160" y="80"/>
+      <p1 x="240" y="80"/>
+      <p2 x="300" y="80"/>
     </wire>
     <wire>
       <p1 x="-40" y="240"/>
@@ -115,8 +120,16 @@
       <p2 x="80" y="240"/>
     </wire>
     <wire>
-      <p1 x="200" y="160"/>
-      <p2 x="260" y="160"/>
+      <p1 x="540" y="160"/>
+      <p2 x="560" y="160"/>
+    </wire>
+    <wire>
+      <p1 x="300" y="160"/>
+      <p2 x="380" y="160"/>
+    </wire>
+    <wire>
+      <p1 x="200" y="0"/>
+      <p2 x="360" y="0"/>
     </wire>
     <wire>
       <p1 x="-40" y="100"/>
@@ -131,16 +144,16 @@
       <p2 x="-20" y="180"/>
     </wire>
     <wire>
+      <p1 x="360" y="180"/>
+      <p2 x="380" y="180"/>
+    </wire>
+    <wire>
       <p1 x="-40" y="40"/>
       <p2 x="-20" y="40"/>
     </wire>
     <wire>
       <p1 x="-20" y="200"/>
       <p2 x="80" y="200"/>
-    </wire>
-    <wire>
-      <p1 x="160" y="120"/>
-      <p2 x="260" y="120"/>
     </wire>
     <wire>
       <p1 x="-20" y="60"/>
@@ -151,24 +164,12 @@
       <p2 x="80" y="220"/>
     </wire>
     <wire>
-      <p1 x="140" y="220"/>
-      <p2 x="160" y="220"/>
+      <p1 x="240" y="220"/>
+      <p2 x="300" y="220"/>
     </wire>
     <wire>
-      <p1 x="160" y="140"/>
-      <p2 x="260" y="140"/>
-    </wire>
-    <wire>
-      <p1 x="320" y="140"/>
+      <p1 x="300" y="140"/>
       <p2 x="380" y="140"/>
-    </wire>
-    <wire>
-      <p1 x="160" y="80"/>
-      <p2 x="160" y="120"/>
-    </wire>
-    <wire>
-      <p1 x="160" y="140"/>
-      <p2 x="160" y="220"/>
     </wire>
     <wire>
       <p1 x="-20" y="40"/>
@@ -188,7 +189,11 @@
     </wire>
     <wire>
       <p1 x="200" y="-20"/>
-      <p2 x="200" y="160"/>
+      <p2 x="200" y="0"/>
+    </wire>
+    <wire>
+      <p1 x="360" y="0"/>
+      <p2 x="360" y="180"/>
     </wire>
     <wire>
       <p1 x="60" y="-20"/>
@@ -197,6 +202,14 @@
     <wire>
       <p1 x="60" y="100"/>
       <p2 x="60" y="240"/>
+    </wire>
+    <wire>
+      <p1 x="300" y="80"/>
+      <p2 x="300" y="140"/>
+    </wire>
+    <wire>
+      <p1 x="300" y="160"/>
+      <p2 x="300" y="220"/>
     </wire>
   </wires>
   <measurementOrdering/>

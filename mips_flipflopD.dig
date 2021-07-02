@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <circuit>
   <version>1</version>
-  <attributes/>
+  <attributes>
+    <entry>
+      <string>Width</string>
+      <int>5</int>
+    </entry>
+  </attributes>
   <visualElements>
     <visualElement>
       <elementName>mips_latchD.dig</elementName>
@@ -46,7 +51,7 @@
           <string>Q</string>
         </entry>
       </elementAttributes>
-      <pos x="520" y="140"/>
+      <pos x="520" y="160"/>
     </visualElement>
     <visualElement>
       <elementName>Out</elementName>
@@ -56,7 +61,7 @@
           <string>~Q</string>
         </entry>
       </elementAttributes>
-      <pos x="520" y="180"/>
+      <pos x="520" y="200"/>
     </visualElement>
   </visualElements>
   <wires>
@@ -69,24 +74,28 @@
       <p2 x="380" y="160"/>
     </wire>
     <wire>
-      <p1 x="440" y="160"/>
-      <p2 x="460" y="160"/>
+      <p1 x="480" y="160"/>
+      <p2 x="520" y="160"/>
     </wire>
     <wire>
-      <p1 x="360" y="180"/>
+      <p1 x="340" y="180"/>
       <p2 x="380" y="180"/>
     </wire>
     <wire>
-      <p1 x="440" y="180"/>
-      <p2 x="520" y="180"/>
+      <p1 x="480" y="180"/>
+      <p2 x="500" y="180"/>
+    </wire>
+    <wire>
+      <p1 x="500" y="200"/>
+      <p2 x="520" y="200"/>
     </wire>
     <wire>
       <p1 x="200" y="220"/>
       <p2 x="220" y="220"/>
     </wire>
     <wire>
-      <p1 x="280" y="220"/>
-      <p2 x="360" y="220"/>
+      <p1 x="320" y="220"/>
+      <p2 x="340" y="220"/>
     </wire>
     <wire>
       <p1 x="180" y="140"/>
@@ -97,12 +106,16 @@
       <p2 x="360" y="140"/>
     </wire>
     <wire>
-      <p1 x="460" y="140"/>
-      <p2 x="520" y="140"/>
-    </wire>
-    <wire>
       <p1 x="200" y="140"/>
       <p2 x="260" y="140"/>
+    </wire>
+    <wire>
+      <p1 x="340" y="180"/>
+      <p2 x="340" y="220"/>
+    </wire>
+    <wire>
+      <p1 x="500" y="180"/>
+      <p2 x="500" y="200"/>
     </wire>
     <wire>
       <p1 x="200" y="140"/>
@@ -111,14 +124,6 @@
     <wire>
       <p1 x="360" y="140"/>
       <p2 x="360" y="160"/>
-    </wire>
-    <wire>
-      <p1 x="360" y="180"/>
-      <p2 x="360" y="220"/>
-    </wire>
-    <wire>
-      <p1 x="460" y="140"/>
-      <p2 x="460" y="160"/>
     </wire>
   </wires>
   <measurementOrdering/>
