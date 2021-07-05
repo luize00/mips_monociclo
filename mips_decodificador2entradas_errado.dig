@@ -1,21 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <circuit>
   <version>1</version>
-  <attributes/>
+  <attributes>
+    <entry>
+      <string>Width</string>
+      <int>10</int>
+    </entry>
+  </attributes>
   <visualElements>
     <visualElement>
       <elementName>In</elementName>
       <elementAttributes>
         <entry>
-          <string>Label</string>
-          <string>Entrada0</string>
-        </entry>
-        <entry>
           <string>rotation</string>
           <rotation rotation="3"/>
         </entry>
+        <entry>
+          <string>Label</string>
+          <string>Entrada0</string>
+        </entry>
       </elementAttributes>
-      <pos x="-720" y="-200"/>
+      <pos x="-1680" y="320"/>
     </visualElement>
     <visualElement>
       <elementName>In</elementName>
@@ -29,49 +34,7 @@
           <string>Entrada1</string>
         </entry>
       </elementAttributes>
-      <pos x="-660" y="-200"/>
-    </visualElement>
-    <visualElement>
-      <elementName>In</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="3"/>
-        </entry>
-        <entry>
-          <string>Label</string>
-          <string>Entrada2</string>
-        </entry>
-      </elementAttributes>
-      <pos x="-600" y="-200"/>
-    </visualElement>
-    <visualElement>
-      <elementName>In</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="3"/>
-        </entry>
-        <entry>
-          <string>Label</string>
-          <string>Entrada3</string>
-        </entry>
-      </elementAttributes>
-      <pos x="-540" y="-200"/>
-    </visualElement>
-    <visualElement>
-      <elementName>In</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="3"/>
-        </entry>
-        <entry>
-          <string>Label</string>
-          <string>Entrada4</string>
-        </entry>
-      </elementAttributes>
-      <pos x="-480" y="-200"/>
+      <pos x="-1620" y="320"/>
     </visualElement>
     <visualElement>
       <elementName>And</elementName>
@@ -84,18 +47,53 @@
           <string>inverterConfig</string>
           <inverterConfig>
             <string>In_1</string>
-            <string>In_4</string>
-            <string>In_5</string>
             <string>In_2</string>
-            <string>In_3</string>
           </inverterConfig>
         </entry>
+      </elementAttributes>
+      <pos x="-1560" y="420"/>
+    </visualElement>
+    <visualElement>
+      <elementName>And</elementName>
+      <elementAttributes>
         <entry>
-          <string>Inputs</string>
-          <int>5</int>
+          <string>wideShape</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>inverterConfig</string>
+          <inverterConfig>
+            <string>In_1</string>
+          </inverterConfig>
         </entry>
       </elementAttributes>
-      <pos x="-200" y="-120"/>
+      <pos x="-1560" y="520"/>
+    </visualElement>
+    <visualElement>
+      <elementName>And</elementName>
+      <elementAttributes>
+        <entry>
+          <string>wideShape</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>inverterConfig</string>
+          <inverterConfig>
+            <string>In_2</string>
+          </inverterConfig>
+        </entry>
+      </elementAttributes>
+      <pos x="-1560" y="620"/>
+    </visualElement>
+    <visualElement>
+      <elementName>And</elementName>
+      <elementAttributes>
+        <entry>
+          <string>wideShape</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="-1560" y="720"/>
     </visualElement>
     <visualElement>
       <elementName>Out</elementName>
@@ -105,30 +103,7 @@
           <string>Saida0</string>
         </entry>
       </elementAttributes>
-      <pos x="-60" y="-80"/>
-    </visualElement>
-    <visualElement>
-      <elementName>And</elementName>
-      <elementAttributes>
-        <entry>
-          <string>wideShape</string>
-          <boolean>true</boolean>
-        </entry>
-        <entry>
-          <string>inverterConfig</string>
-          <inverterConfig>
-            <string>In_1</string>
-            <string>In_4</string>
-            <string>In_2</string>
-            <string>In_3</string>
-          </inverterConfig>
-        </entry>
-        <entry>
-          <string>Inputs</string>
-          <int>5</int>
-        </entry>
-      </elementAttributes>
-      <pos x="-200" y="0"/>
+      <pos x="-1460" y="440"/>
     </visualElement>
     <visualElement>
       <elementName>Out</elementName>
@@ -138,30 +113,7 @@
           <string>Saida1</string>
         </entry>
       </elementAttributes>
-      <pos x="-60" y="40"/>
-    </visualElement>
-    <visualElement>
-      <elementName>And</elementName>
-      <elementAttributes>
-        <entry>
-          <string>wideShape</string>
-          <boolean>true</boolean>
-        </entry>
-        <entry>
-          <string>inverterConfig</string>
-          <inverterConfig>
-            <string>In_1</string>
-            <string>In_5</string>
-            <string>In_2</string>
-            <string>In_3</string>
-          </inverterConfig>
-        </entry>
-        <entry>
-          <string>Inputs</string>
-          <int>5</int>
-        </entry>
-      </elementAttributes>
-      <pos x="-200" y="120"/>
+      <pos x="-1460" y="540"/>
     </visualElement>
     <visualElement>
       <elementName>Out</elementName>
@@ -171,29 +123,7 @@
           <string>Saida2</string>
         </entry>
       </elementAttributes>
-      <pos x="-60" y="160"/>
-    </visualElement>
-    <visualElement>
-      <elementName>And</elementName>
-      <elementAttributes>
-        <entry>
-          <string>wideShape</string>
-          <boolean>true</boolean>
-        </entry>
-        <entry>
-          <string>inverterConfig</string>
-          <inverterConfig>
-            <string>In_1</string>
-            <string>In_2</string>
-            <string>In_3</string>
-          </inverterConfig>
-        </entry>
-        <entry>
-          <string>Inputs</string>
-          <int>5</int>
-        </entry>
-      </elementAttributes>
-      <pos x="-200" y="240"/>
+      <pos x="-1460" y="640"/>
     </visualElement>
     <visualElement>
       <elementName>Out</elementName>
@@ -203,1008 +133,89 @@
           <string>Saida3</string>
         </entry>
       </elementAttributes>
-      <pos x="-60" y="280"/>
-    </visualElement>
-    <visualElement>
-      <elementName>And</elementName>
-      <elementAttributes>
-        <entry>
-          <string>wideShape</string>
-          <boolean>true</boolean>
-        </entry>
-        <entry>
-          <string>inverterConfig</string>
-          <inverterConfig>
-            <string>In_1</string>
-            <string>In_4</string>
-            <string>In_5</string>
-            <string>In_2</string>
-          </inverterConfig>
-        </entry>
-        <entry>
-          <string>Inputs</string>
-          <int>5</int>
-        </entry>
-      </elementAttributes>
-      <pos x="-200" y="360"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Out</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>Saida4</string>
-        </entry>
-      </elementAttributes>
-      <pos x="-60" y="400"/>
-    </visualElement>
-    <visualElement>
-      <elementName>And</elementName>
-      <elementAttributes>
-        <entry>
-          <string>wideShape</string>
-          <boolean>true</boolean>
-        </entry>
-        <entry>
-          <string>inverterConfig</string>
-          <inverterConfig>
-            <string>In_1</string>
-            <string>In_4</string>
-            <string>In_2</string>
-          </inverterConfig>
-        </entry>
-        <entry>
-          <string>Inputs</string>
-          <int>5</int>
-        </entry>
-      </elementAttributes>
-      <pos x="-200" y="480"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Out</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>Saida5</string>
-        </entry>
-      </elementAttributes>
-      <pos x="-60" y="520"/>
-    </visualElement>
-    <visualElement>
-      <elementName>And</elementName>
-      <elementAttributes>
-        <entry>
-          <string>wideShape</string>
-          <boolean>true</boolean>
-        </entry>
-        <entry>
-          <string>inverterConfig</string>
-          <inverterConfig>
-            <string>In_1</string>
-            <string>In_5</string>
-            <string>In_2</string>
-          </inverterConfig>
-        </entry>
-        <entry>
-          <string>Inputs</string>
-          <int>5</int>
-        </entry>
-      </elementAttributes>
-      <pos x="-200" y="600"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Out</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>Saida6</string>
-        </entry>
-      </elementAttributes>
-      <pos x="-60" y="640"/>
-    </visualElement>
-    <visualElement>
-      <elementName>And</elementName>
-      <elementAttributes>
-        <entry>
-          <string>wideShape</string>
-          <boolean>true</boolean>
-        </entry>
-        <entry>
-          <string>inverterConfig</string>
-          <inverterConfig>
-            <string>In_1</string>
-            <string>In_2</string>
-          </inverterConfig>
-        </entry>
-        <entry>
-          <string>Inputs</string>
-          <int>5</int>
-        </entry>
-      </elementAttributes>
-      <pos x="-200" y="720"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Out</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>Saida7</string>
-        </entry>
-      </elementAttributes>
-      <pos x="-60" y="760"/>
-    </visualElement>
-    <visualElement>
-      <elementName>And</elementName>
-      <elementAttributes>
-        <entry>
-          <string>wideShape</string>
-          <boolean>true</boolean>
-        </entry>
-        <entry>
-          <string>inverterConfig</string>
-          <inverterConfig>
-            <string>In_1</string>
-            <string>In_4</string>
-            <string>In_5</string>
-            <string>In_3</string>
-          </inverterConfig>
-        </entry>
-        <entry>
-          <string>Inputs</string>
-          <int>5</int>
-        </entry>
-      </elementAttributes>
-      <pos x="-200" y="840"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Out</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>Saida8</string>
-        </entry>
-      </elementAttributes>
-      <pos x="-60" y="880"/>
-    </visualElement>
-    <visualElement>
-      <elementName>And</elementName>
-      <elementAttributes>
-        <entry>
-          <string>wideShape</string>
-          <boolean>true</boolean>
-        </entry>
-        <entry>
-          <string>inverterConfig</string>
-          <inverterConfig>
-            <string>In_1</string>
-            <string>In_4</string>
-            <string>In_3</string>
-          </inverterConfig>
-        </entry>
-        <entry>
-          <string>Inputs</string>
-          <int>5</int>
-        </entry>
-      </elementAttributes>
-      <pos x="-200" y="960"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Out</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>Saida9</string>
-        </entry>
-      </elementAttributes>
-      <pos x="-60" y="1000"/>
-    </visualElement>
-    <visualElement>
-      <elementName>And</elementName>
-      <elementAttributes>
-        <entry>
-          <string>wideShape</string>
-          <boolean>true</boolean>
-        </entry>
-        <entry>
-          <string>inverterConfig</string>
-          <inverterConfig>
-            <string>In_1</string>
-            <string>In_5</string>
-            <string>In_3</string>
-          </inverterConfig>
-        </entry>
-        <entry>
-          <string>Inputs</string>
-          <int>5</int>
-        </entry>
-      </elementAttributes>
-      <pos x="-200" y="1080"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Out</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>Saida10</string>
-        </entry>
-      </elementAttributes>
-      <pos x="-60" y="1120"/>
-    </visualElement>
-    <visualElement>
-      <elementName>And</elementName>
-      <elementAttributes>
-        <entry>
-          <string>wideShape</string>
-          <boolean>true</boolean>
-        </entry>
-        <entry>
-          <string>inverterConfig</string>
-          <inverterConfig>
-            <string>In_1</string>
-            <string>In_3</string>
-          </inverterConfig>
-        </entry>
-        <entry>
-          <string>Inputs</string>
-          <int>5</int>
-        </entry>
-      </elementAttributes>
-      <pos x="-200" y="1200"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Out</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>Saida11</string>
-        </entry>
-      </elementAttributes>
-      <pos x="-60" y="1240"/>
-    </visualElement>
-    <visualElement>
-      <elementName>And</elementName>
-      <elementAttributes>
-        <entry>
-          <string>wideShape</string>
-          <boolean>true</boolean>
-        </entry>
-        <entry>
-          <string>inverterConfig</string>
-          <inverterConfig>
-            <string>In_1</string>
-            <string>In_4</string>
-            <string>In_5</string>
-          </inverterConfig>
-        </entry>
-        <entry>
-          <string>Inputs</string>
-          <int>5</int>
-        </entry>
-      </elementAttributes>
-      <pos x="-200" y="1320"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Out</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>Saida12</string>
-        </entry>
-      </elementAttributes>
-      <pos x="-60" y="1360"/>
-    </visualElement>
-    <visualElement>
-      <elementName>And</elementName>
-      <elementAttributes>
-        <entry>
-          <string>wideShape</string>
-          <boolean>true</boolean>
-        </entry>
-        <entry>
-          <string>inverterConfig</string>
-          <inverterConfig>
-            <string>In_1</string>
-            <string>In_4</string>
-          </inverterConfig>
-        </entry>
-        <entry>
-          <string>Inputs</string>
-          <int>5</int>
-        </entry>
-      </elementAttributes>
-      <pos x="-200" y="1440"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Out</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>Saida13</string>
-        </entry>
-      </elementAttributes>
-      <pos x="-60" y="1480"/>
-    </visualElement>
-    <visualElement>
-      <elementName>And</elementName>
-      <elementAttributes>
-        <entry>
-          <string>wideShape</string>
-          <boolean>true</boolean>
-        </entry>
-        <entry>
-          <string>inverterConfig</string>
-          <inverterConfig>
-            <string>In_1</string>
-            <string>In_5</string>
-          </inverterConfig>
-        </entry>
-        <entry>
-          <string>Inputs</string>
-          <int>5</int>
-        </entry>
-      </elementAttributes>
-      <pos x="-200" y="1560"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Out</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>Saida14</string>
-        </entry>
-      </elementAttributes>
-      <pos x="-60" y="1600"/>
-    </visualElement>
-    <visualElement>
-      <elementName>And</elementName>
-      <elementAttributes>
-        <entry>
-          <string>wideShape</string>
-          <boolean>true</boolean>
-        </entry>
-        <entry>
-          <string>inverterConfig</string>
-          <inverterConfig>
-            <string>In_1</string>
-          </inverterConfig>
-        </entry>
-        <entry>
-          <string>Inputs</string>
-          <int>5</int>
-        </entry>
-      </elementAttributes>
-      <pos x="-200" y="1680"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Out</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>Saida15</string>
-        </entry>
-      </elementAttributes>
-      <pos x="-60" y="1720"/>
-    </visualElement>
-    <visualElement>
-      <elementName>And</elementName>
-      <elementAttributes>
-        <entry>
-          <string>wideShape</string>
-          <boolean>true</boolean>
-        </entry>
-        <entry>
-          <string>inverterConfig</string>
-          <inverterConfig>
-            <string>In_4</string>
-            <string>In_5</string>
-            <string>In_2</string>
-            <string>In_3</string>
-          </inverterConfig>
-        </entry>
-        <entry>
-          <string>Inputs</string>
-          <int>5</int>
-        </entry>
-      </elementAttributes>
-      <pos x="-200" y="1800"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Out</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>Saida16</string>
-        </entry>
-      </elementAttributes>
-      <pos x="-60" y="1840"/>
-    </visualElement>
-    <visualElement>
-      <elementName>And</elementName>
-      <elementAttributes>
-        <entry>
-          <string>wideShape</string>
-          <boolean>true</boolean>
-        </entry>
-        <entry>
-          <string>inverterConfig</string>
-          <inverterConfig>
-            <string>In_4</string>
-            <string>In_2</string>
-            <string>In_3</string>
-          </inverterConfig>
-        </entry>
-        <entry>
-          <string>Inputs</string>
-          <int>5</int>
-        </entry>
-      </elementAttributes>
-      <pos x="-200" y="1920"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Out</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>Saida17</string>
-        </entry>
-      </elementAttributes>
-      <pos x="-60" y="1960"/>
-    </visualElement>
-    <visualElement>
-      <elementName>And</elementName>
-      <elementAttributes>
-        <entry>
-          <string>wideShape</string>
-          <boolean>true</boolean>
-        </entry>
-        <entry>
-          <string>inverterConfig</string>
-          <inverterConfig>
-            <string>In_5</string>
-            <string>In_2</string>
-            <string>In_3</string>
-          </inverterConfig>
-        </entry>
-        <entry>
-          <string>Inputs</string>
-          <int>5</int>
-        </entry>
-      </elementAttributes>
-      <pos x="-200" y="2040"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Out</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>Saida18</string>
-        </entry>
-      </elementAttributes>
-      <pos x="-60" y="2080"/>
-    </visualElement>
-    <visualElement>
-      <elementName>And</elementName>
-      <elementAttributes>
-        <entry>
-          <string>wideShape</string>
-          <boolean>true</boolean>
-        </entry>
-        <entry>
-          <string>inverterConfig</string>
-          <inverterConfig>
-            <string>In_2</string>
-            <string>In_3</string>
-          </inverterConfig>
-        </entry>
-        <entry>
-          <string>Inputs</string>
-          <int>5</int>
-        </entry>
-      </elementAttributes>
-      <pos x="-200" y="2160"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Out</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>Saida19</string>
-        </entry>
-      </elementAttributes>
-      <pos x="-60" y="2200"/>
-    </visualElement>
-    <visualElement>
-      <elementName>And</elementName>
-      <elementAttributes>
-        <entry>
-          <string>wideShape</string>
-          <boolean>true</boolean>
-        </entry>
-        <entry>
-          <string>inverterConfig</string>
-          <inverterConfig>
-            <string>In_4</string>
-            <string>In_5</string>
-            <string>In_2</string>
-          </inverterConfig>
-        </entry>
-        <entry>
-          <string>Inputs</string>
-          <int>5</int>
-        </entry>
-      </elementAttributes>
-      <pos x="-200" y="2280"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Out</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>Saida20</string>
-        </entry>
-      </elementAttributes>
-      <pos x="-60" y="2320"/>
-    </visualElement>
-    <visualElement>
-      <elementName>And</elementName>
-      <elementAttributes>
-        <entry>
-          <string>wideShape</string>
-          <boolean>true</boolean>
-        </entry>
-        <entry>
-          <string>inverterConfig</string>
-          <inverterConfig>
-            <string>In_4</string>
-            <string>In_2</string>
-          </inverterConfig>
-        </entry>
-        <entry>
-          <string>Inputs</string>
-          <int>5</int>
-        </entry>
-      </elementAttributes>
-      <pos x="-200" y="2400"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Out</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>Saida21</string>
-        </entry>
-      </elementAttributes>
-      <pos x="-60" y="2440"/>
-    </visualElement>
-    <visualElement>
-      <elementName>And</elementName>
-      <elementAttributes>
-        <entry>
-          <string>wideShape</string>
-          <boolean>true</boolean>
-        </entry>
-        <entry>
-          <string>inverterConfig</string>
-          <inverterConfig>
-            <string>In_5</string>
-            <string>In_2</string>
-          </inverterConfig>
-        </entry>
-        <entry>
-          <string>Inputs</string>
-          <int>5</int>
-        </entry>
-      </elementAttributes>
-      <pos x="-200" y="2520"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Out</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>Saida22</string>
-        </entry>
-      </elementAttributes>
-      <pos x="-60" y="2560"/>
-    </visualElement>
-    <visualElement>
-      <elementName>And</elementName>
-      <elementAttributes>
-        <entry>
-          <string>wideShape</string>
-          <boolean>true</boolean>
-        </entry>
-        <entry>
-          <string>inverterConfig</string>
-          <inverterConfig>
-            <string>In_2</string>
-          </inverterConfig>
-        </entry>
-        <entry>
-          <string>Inputs</string>
-          <int>5</int>
-        </entry>
-      </elementAttributes>
-      <pos x="-200" y="2640"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Out</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>Saida23</string>
-        </entry>
-      </elementAttributes>
-      <pos x="-60" y="2680"/>
-    </visualElement>
-    <visualElement>
-      <elementName>And</elementName>
-      <elementAttributes>
-        <entry>
-          <string>wideShape</string>
-          <boolean>true</boolean>
-        </entry>
-        <entry>
-          <string>inverterConfig</string>
-          <inverterConfig>
-            <string>In_4</string>
-            <string>In_5</string>
-            <string>In_3</string>
-          </inverterConfig>
-        </entry>
-        <entry>
-          <string>Inputs</string>
-          <int>5</int>
-        </entry>
-      </elementAttributes>
-      <pos x="-200" y="2760"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Out</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>Saida24</string>
-        </entry>
-      </elementAttributes>
-      <pos x="-60" y="2800"/>
-    </visualElement>
-    <visualElement>
-      <elementName>And</elementName>
-      <elementAttributes>
-        <entry>
-          <string>wideShape</string>
-          <boolean>true</boolean>
-        </entry>
-        <entry>
-          <string>inverterConfig</string>
-          <inverterConfig>
-            <string>In_4</string>
-            <string>In_3</string>
-          </inverterConfig>
-        </entry>
-        <entry>
-          <string>Inputs</string>
-          <int>5</int>
-        </entry>
-      </elementAttributes>
-      <pos x="-200" y="2880"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Out</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>Saida25</string>
-        </entry>
-      </elementAttributes>
-      <pos x="-60" y="2920"/>
-    </visualElement>
-    <visualElement>
-      <elementName>And</elementName>
-      <elementAttributes>
-        <entry>
-          <string>wideShape</string>
-          <boolean>true</boolean>
-        </entry>
-        <entry>
-          <string>inverterConfig</string>
-          <inverterConfig>
-            <string>In_5</string>
-            <string>In_3</string>
-          </inverterConfig>
-        </entry>
-        <entry>
-          <string>Inputs</string>
-          <int>5</int>
-        </entry>
-      </elementAttributes>
-      <pos x="-200" y="3000"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Out</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>Saida26</string>
-        </entry>
-      </elementAttributes>
-      <pos x="-60" y="3040"/>
-    </visualElement>
-    <visualElement>
-      <elementName>And</elementName>
-      <elementAttributes>
-        <entry>
-          <string>wideShape</string>
-          <boolean>true</boolean>
-        </entry>
-        <entry>
-          <string>inverterConfig</string>
-          <inverterConfig>
-            <string>In_3</string>
-          </inverterConfig>
-        </entry>
-        <entry>
-          <string>Inputs</string>
-          <int>5</int>
-        </entry>
-      </elementAttributes>
-      <pos x="-200" y="3120"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Out</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>Saida27</string>
-        </entry>
-      </elementAttributes>
-      <pos x="-60" y="3160"/>
-    </visualElement>
-    <visualElement>
-      <elementName>And</elementName>
-      <elementAttributes>
-        <entry>
-          <string>wideShape</string>
-          <boolean>true</boolean>
-        </entry>
-        <entry>
-          <string>inverterConfig</string>
-          <inverterConfig>
-            <string>In_4</string>
-            <string>In_5</string>
-          </inverterConfig>
-        </entry>
-        <entry>
-          <string>Inputs</string>
-          <int>5</int>
-        </entry>
-      </elementAttributes>
-      <pos x="-200" y="3240"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Out</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>Saida28</string>
-        </entry>
-      </elementAttributes>
-      <pos x="-60" y="3280"/>
-    </visualElement>
-    <visualElement>
-      <elementName>And</elementName>
-      <elementAttributes>
-        <entry>
-          <string>wideShape</string>
-          <boolean>true</boolean>
-        </entry>
-        <entry>
-          <string>inverterConfig</string>
-          <inverterConfig>
-            <string>In_4</string>
-          </inverterConfig>
-        </entry>
-        <entry>
-          <string>Inputs</string>
-          <int>5</int>
-        </entry>
-      </elementAttributes>
-      <pos x="-200" y="3360"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Out</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>Saida29</string>
-        </entry>
-      </elementAttributes>
-      <pos x="-60" y="3400"/>
-    </visualElement>
-    <visualElement>
-      <elementName>And</elementName>
-      <elementAttributes>
-        <entry>
-          <string>wideShape</string>
-          <boolean>true</boolean>
-        </entry>
-        <entry>
-          <string>inverterConfig</string>
-          <inverterConfig>
-            <string>In_5</string>
-          </inverterConfig>
-        </entry>
-        <entry>
-          <string>Inputs</string>
-          <int>5</int>
-        </entry>
-      </elementAttributes>
-      <pos x="-200" y="3480"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Out</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>Saida30</string>
-        </entry>
-      </elementAttributes>
-      <pos x="-60" y="3520"/>
-    </visualElement>
-    <visualElement>
-      <elementName>And</elementName>
-      <elementAttributes>
-        <entry>
-          <string>wideShape</string>
-          <boolean>true</boolean>
-        </entry>
-        <entry>
-          <string>Inputs</string>
-          <int>5</int>
-        </entry>
-      </elementAttributes>
-      <pos x="-200" y="3600"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Out</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>Saida31</string>
-        </entry>
-      </elementAttributes>
-      <pos x="-60" y="3640"/>
+      <pos x="-1460" y="740"/>
     </visualElement>
   </visualElements>
   <wires>
     <wire>
-      <p1 x="-120" y="640"/>
-      <p2 x="-60" y="640"/>
+      <p1 x="-1620" y="560"/>
+      <p2 x="-1560" y="560"/>
     </wire>
     <wire>
-      <p1 x="-120" y="1600"/>
-      <p2 x="-60" y="1600"/>
+      <p1 x="-1680" y="720"/>
+      <p2 x="-1560" y="720"/>
     </wire>
     <wire>
-      <p1 x="-120" y="2560"/>
-      <p2 x="-60" y="2560"/>
+      <p1 x="-1480" y="640"/>
+      <p2 x="-1460" y="640"/>
     </wire>
     <wire>
-      <p1 x="-120" y="3520"/>
-      <p2 x="-60" y="3520"/>
+      <p1 x="-1680" y="420"/>
+      <p2 x="-1580" y="420"/>
     </wire>
     <wire>
-      <p1 x="-120" y="520"/>
-      <p2 x="-60" y="520"/>
+      <p1 x="-1620" y="660"/>
+      <p2 x="-1580" y="660"/>
     </wire>
     <wire>
-      <p1 x="-120" y="1480"/>
-      <p2 x="-60" y="1480"/>
+      <p1 x="-1480" y="740"/>
+      <p2 x="-1460" y="740"/>
     </wire>
     <wire>
-      <p1 x="-120" y="2440"/>
-      <p2 x="-60" y="2440"/>
+      <p1 x="-1680" y="520"/>
+      <p2 x="-1580" y="520"/>
     </wire>
     <wire>
-      <p1 x="-120" y="3400"/>
-      <p2 x="-60" y="3400"/>
+      <p1 x="-1620" y="760"/>
+      <p2 x="-1560" y="760"/>
     </wire>
     <wire>
-      <p1 x="-120" y="-80"/>
-      <p2 x="-60" y="-80"/>
+      <p1 x="-1480" y="440"/>
+      <p2 x="-1460" y="440"/>
     </wire>
     <wire>
-      <p1 x="-120" y="400"/>
-      <p2 x="-60" y="400"/>
+      <p1 x="-1620" y="460"/>
+      <p2 x="-1580" y="460"/>
     </wire>
     <wire>
-      <p1 x="-120" y="1360"/>
-      <p2 x="-60" y="1360"/>
+      <p1 x="-1680" y="620"/>
+      <p2 x="-1560" y="620"/>
     </wire>
     <wire>
-      <p1 x="-120" y="2320"/>
-      <p2 x="-60" y="2320"/>
+      <p1 x="-1480" y="540"/>
+      <p2 x="-1460" y="540"/>
     </wire>
     <wire>
-      <p1 x="-120" y="3280"/>
-      <p2 x="-60" y="3280"/>
+      <p1 x="-1620" y="320"/>
+      <p2 x="-1620" y="460"/>
     </wire>
     <wire>
-      <p1 x="-120" y="280"/>
-      <p2 x="-60" y="280"/>
+      <p1 x="-1620" y="660"/>
+      <p2 x="-1620" y="760"/>
     </wire>
     <wire>
-      <p1 x="-120" y="1240"/>
-      <p2 x="-60" y="1240"/>
+      <p1 x="-1620" y="560"/>
+      <p2 x="-1620" y="660"/>
     </wire>
     <wire>
-      <p1 x="-120" y="2200"/>
-      <p2 x="-60" y="2200"/>
+      <p1 x="-1620" y="460"/>
+      <p2 x="-1620" y="560"/>
     </wire>
     <wire>
-      <p1 x="-120" y="3160"/>
-      <p2 x="-60" y="3160"/>
+      <p1 x="-1680" y="320"/>
+      <p2 x="-1680" y="420"/>
     </wire>
     <wire>
-      <p1 x="-120" y="160"/>
-      <p2 x="-60" y="160"/>
+      <p1 x="-1680" y="620"/>
+      <p2 x="-1680" y="720"/>
     </wire>
     <wire>
-      <p1 x="-120" y="1120"/>
-      <p2 x="-60" y="1120"/>
+      <p1 x="-1680" y="520"/>
+      <p2 x="-1680" y="620"/>
     </wire>
     <wire>
-      <p1 x="-120" y="2080"/>
-      <p2 x="-60" y="2080"/>
-    </wire>
-    <wire>
-      <p1 x="-120" y="3040"/>
-      <p2 x="-60" y="3040"/>
-    </wire>
-    <wire>
-      <p1 x="-120" y="40"/>
-      <p2 x="-60" y="40"/>
-    </wire>
-    <wire>
-      <p1 x="-120" y="1000"/>
-      <p2 x="-60" y="1000"/>
-    </wire>
-    <wire>
-      <p1 x="-120" y="1960"/>
-      <p2 x="-60" y="1960"/>
-    </wire>
-    <wire>
-      <p1 x="-120" y="2920"/>
-      <p2 x="-60" y="2920"/>
-    </wire>
-    <wire>
-      <p1 x="-120" y="880"/>
-      <p2 x="-60" y="880"/>
-    </wire>
-    <wire>
-      <p1 x="-120" y="1840"/>
-      <p2 x="-60" y="1840"/>
-    </wire>
-    <wire>
-      <p1 x="-120" y="2800"/>
-      <p2 x="-60" y="2800"/>
-    </wire>
-    <wire>
-      <p1 x="-120" y="760"/>
-      <p2 x="-60" y="760"/>
-    </wire>
-    <wire>
-      <p1 x="-120" y="1720"/>
-      <p2 x="-60" y="1720"/>
-    </wire>
-    <wire>
-      <p1 x="-120" y="2680"/>
-      <p2 x="-60" y="2680"/>
-    </wire>
-    <wire>
-      <p1 x="-120" y="3640"/>
-      <p2 x="-60" y="3640"/>
+      <p1 x="-1680" y="420"/>
+      <p2 x="-1680" y="520"/>
     </wire>
   </wires>
   <measurementOrdering/>

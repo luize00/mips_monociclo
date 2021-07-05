@@ -498,7 +498,7 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>Sinal de Escrita</string>
+          <string>Escrever</string>
         </entry>
       </elementAttributes>
       <pos x="-1260" y="580"/>
@@ -587,7 +587,7 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>Lê Dado 2</string>
+          <string>Dado Leitura 2</string>
         </entry>
       </elementAttributes>
       <pos x="2240" y="3160"/>
