@@ -123,7 +123,7 @@
           <string>Dout</string>
         </entry>
       </elementAttributes>
-      <pos x="620" y="1320"/>
+      <pos x="620" y="1160"/>
     </visualElement>
     <visualElement>
       <elementName>Out</elementName>
@@ -137,7 +137,7 @@
           <string>Dout²</string>
         </entry>
       </elementAttributes>
-      <pos x="920" y="1320"/>
+      <pos x="920" y="1160"/>
     </visualElement>
     <visualElement>
       <elementName>mips_decodificador2entradas_errado.dig</elementName>
@@ -486,7 +486,7 @@
     </wire>
     <wire>
       <p1 x="920" y="940"/>
-      <p2 x="920" y="1320"/>
+      <p2 x="920" y="1160"/>
     </wire>
     <wire>
       <p1 x="920" y="760"/>
@@ -542,7 +542,7 @@
     </wire>
     <wire>
       <p1 x="620" y="980"/>
-      <p2 x="620" y="1320"/>
+      <p2 x="620" y="1160"/>
     </wire>
     <wire>
       <p1 x="140" y="520"/>

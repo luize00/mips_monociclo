@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="-80 -80 220 200"
+   version="1.1"
+   id="svg201"
+   sodipodi:docname="mips_somacomplet.svg"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs203" />
+  <sodipodi:namedview
+     showgrid="true"
+     id="namedview171"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:zoom="2.475"
+     inkscape:cx="110.10101"
+     inkscape:cy="100"
+     inkscape:window-width="1294"
+     inkscape:window-height="704"
+     inkscape:window-x="72"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg201">
+    <inkscape:grid
+       type="xygrid"
+       empspacing="4"
+       spacingx="5"
+       spacingy="5"
+       id="grid169" />
+  </sodipodi:namedview>
+  <rect
+     stroke="#000000"
+     stroke-width="5.1119"
+     fill="#ffffb4"
+     fill-opacity="0.784314"
+     x="-45.090908"
+     y="-10"
+     width="145.45454"
+     height="70.800003"
+     id="rect173" />
+  <text
+     id="label"
+     fill="#000000"
+     font-size="24"
+     text-anchor="middle"
+     x="30"
+     y="-20">Label</text>
+  <g
+     id="g179"
+     transform="translate(-44)">
+    <circle
+       fill="#0000b2"
+       id="pin:A"
+       cx="0"
+       cy="0"
+       r="3" />
+    <text
+       fill="#808080"
+       font-size="18px"
+       x="4"
+       y="6"
+       id="text177">A</text>
+  </g>
+  <g
+     id="g184"
+     transform="translate(-44,4)">
+    <circle
+       fill="#0000b2"
+       id="pin:B"
+       cx="0"
+       cy="20"
+       r="3" />
+    <text
+       fill="#808080"
+       font-size="18px"
+       x="4"
+       y="26"
+       id="text182">B</text>
+  </g>
+  <g
+     id="g189"
+     transform="translate(-44,8)">
+    <circle
+       fill="#0000b2"
+       id="pin:CarryIn"
+       cx="0"
+       cy="40"
+       r="3" />
+    <text
+       fill="#808080"
+       font-size="18px"
+       x="4"
+       y="46"
+       id="text187">CarryIn</text>
+  </g>
+  <g
+     id="g194"
+     transform="translate(40,2)">
+    <circle
+       fill="#b20000"
+       id="pin:S"
+       cx="60"
+       cy="0"
+       r="3" />
+    <text
+       fill="#808080"
+       font-size="18px"
+       text-anchor="end"
+       x="56"
+       y="6"
+       id="text192">S</text>
+  </g>
+  <g
+     id="g199"
+     transform="translate(39.870635,6.7620714)">
+    <circle
+       fill="#b20000"
+       id="pin:CarryOut"
+       cx="60"
+       cy="20"
+       r="3" />
+    <text
+       fill="#808080"
+       font-size="18px"
+       text-anchor="end"
+       x="56"
+       y="26"
+       id="text197">CarryOut</text>
+  </g>
+</svg>
