@@ -1,7 +1,216 @@
 <?xml version="1.0" encoding="utf-8"?>
 <circuit>
   <version>1</version>
-  <attributes/>
+  <attributes>
+    <entry>
+      <string>shapeType</string>
+      <shapeType>CUSTOM</shapeType>
+    </entry>
+    <entry>
+      <string>customShape</string>
+      <shape>
+        <pins>
+          <entry>
+            <string>Ainvert</string>
+            <pin>
+              <pos x="0" y="0"/>
+              <showLabel>false</showLabel>
+            </pin>
+          </entry>
+          <entry>
+            <string>CarryOut</string>
+            <pin>
+              <pos x="160" y="80"/>
+              <showLabel>false</showLabel>
+            </pin>
+          </entry>
+          <entry>
+            <string>CarryIn</string>
+            <pin>
+              <pos x="0" y="40"/>
+              <showLabel>false</showLabel>
+            </pin>
+          </entry>
+          <entry>
+            <string>Binvert</string>
+            <pin>
+              <pos x="0" y="20"/>
+              <showLabel>false</showLabel>
+            </pin>
+          </entry>
+          <entry>
+            <string>Operação</string>
+            <pin>
+              <pos x="0" y="60"/>
+              <showLabel>false</showLabel>
+            </pin>
+          </entry>
+          <entry>
+            <string>Saida</string>
+            <pin>
+              <pos x="160" y="100"/>
+              <showLabel>false</showLabel>
+            </pin>
+          </entry>
+          <entry>
+            <string>Entrada0</string>
+            <pin>
+              <pos x="0" y="120"/>
+              <showLabel>false</showLabel>
+            </pin>
+          </entry>
+          <entry>
+            <string>Entrada1</string>
+            <pin>
+              <pos x="0" y="140"/>
+              <showLabel>false</showLabel>
+            </pin>
+          </entry>
+        </pins>
+        <drawables>
+          <poly>
+            <poly path="M 5,-15 L 155,-15 L 155,145 L 5,145 Z" evenOdd="false"/>
+            <thickness>5</thickness>
+            <filled>true</filled>
+            <color>
+              <red>255</red>
+              <green>255</green>
+              <blue>180</blue>
+              <alpha>200</alpha>
+            </color>
+          </poly>
+          <poly>
+            <poly path="M 5,-15 L 155,-15 L 155,145 L 5,145 Z" evenOdd="false"/>
+            <thickness>5</thickness>
+            <filled>false</filled>
+            <color>
+              <red>0</red>
+              <green>0</green>
+              <blue>0</blue>
+              <alpha>255</alpha>
+            </color>
+          </poly>
+          <text>
+            <p1 x="9" y="19"/>
+            <p2 x="10" y="19"/>
+            <text>Binvert</text>
+            <orientation>LEFTBOTTOM</orientation>
+            <size>18</size>
+            <color>
+              <red>128</red>
+              <green>128</green>
+              <blue>128</blue>
+              <alpha>255</alpha>
+            </color>
+          </text>
+          <text>
+            <p1 x="10" y="0"/>
+            <p2 x="11" y="0"/>
+            <text>Ainvert</text>
+            <orientation>LEFTBOTTOM</orientation>
+            <size>18</size>
+            <color>
+              <red>128</red>
+              <green>128</green>
+              <blue>128</blue>
+              <alpha>255</alpha>
+            </color>
+          </text>
+          <text>
+            <p1 x="9" y="40"/>
+            <p2 x="10" y="40"/>
+            <text>CarryIn</text>
+            <orientation>LEFTBOTTOM</orientation>
+            <size>18</size>
+            <color>
+              <red>128</red>
+              <green>128</green>
+              <blue>128</blue>
+              <alpha>255</alpha>
+            </color>
+          </text>
+          <text>
+            <p1 x="10" y="58"/>
+            <p2 x="11" y="58"/>
+            <text>Operação</text>
+            <orientation>LEFTBOTTOM</orientation>
+            <size>18</size>
+            <color>
+              <red>128</red>
+              <green>128</green>
+              <blue>128</blue>
+              <alpha>255</alpha>
+            </color>
+          </text>
+          <text>
+            <p1 x="10" y="119"/>
+            <p2 x="11" y="119"/>
+            <text>Entrada0</text>
+            <orientation>LEFTBOTTOM</orientation>
+            <size>18</size>
+            <color>
+              <red>128</red>
+              <green>128</green>
+              <blue>128</blue>
+              <alpha>255</alpha>
+            </color>
+          </text>
+          <text>
+            <p1 x="11" y="138"/>
+            <p2 x="12" y="138"/>
+            <text>Entrada1</text>
+            <orientation>LEFTBOTTOM</orientation>
+            <size>18</size>
+            <color>
+              <red>128</red>
+              <green>128</green>
+              <blue>128</blue>
+              <alpha>255</alpha>
+            </color>
+          </text>
+          <text>
+            <p1 x="150" y="81"/>
+            <p2 x="151" y="81"/>
+            <text>CarryOut</text>
+            <orientation>RIGHTBOTTOM</orientation>
+            <size>18</size>
+            <color>
+              <red>128</red>
+              <green>128</green>
+              <blue>128</blue>
+              <alpha>255</alpha>
+            </color>
+          </text>
+          <text>
+            <p1 x="149" y="97"/>
+            <p2 x="150" y="97"/>
+            <text>Saida</text>
+            <orientation>RIGHTBOTTOM</orientation>
+            <size>18</size>
+            <color>
+              <red>128</red>
+              <green>128</green>
+              <blue>128</blue>
+              <alpha>255</alpha>
+            </color>
+          </text>
+        </drawables>
+        <label>
+          <p1 x="80" y="-26"/>
+          <p2 x="81" y="-26"/>
+          <text></text>
+          <orientation>CENTERBOTTOM</orientation>
+          <size>24</size>
+          <color>
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+            <alpha>255</alpha>
+          </color>
+        </label>
+      </shape>
+    </entry>
+  </attributes>
   <visualElements>
     <visualElement>
       <elementName>mips_ULA1bit_set.dig</elementName>
