@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<truthTable>
+  <variables>
+    <variable name="Op0"/>
+    <variable name="Op1"/>
+    <variable name="Op2"/>
+    <variable name="Op3"/>
+    <variable name="Op4"/>
+    <variable name="Op5"/>
+  </variables>
+  <results>
+    <result>
+      <name>RegDst</name>
+      <values class="BoolTable">
+        <table>AQICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAAgICAgICAgICAgICAgICAgICAgICAgICAgICAg==</table>
+      </values>
+    </result>
+    <result>
+      <name>OrigALU</name>
+      <values class="BoolTable">
+        <table>AAICAgACAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIBAgICAgICAgECAgICAgICAgICAgICAgICAgICAg==</table>
+      </values>
+    </result>
+    <result>
+      <name>MemParaReg</name>
+      <values class="BoolTable">
+        <table>AAICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIBAgICAgICAgICAgICAgICAgICAgICAgICAgICAg==</table>
+      </values>
+    </result>
+    <result>
+      <name>EscreveReg</name>
+      <values class="BoolTable">
+        <table>AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</table>
+      </values>
+    </result>
+    <result>
+      <name>LeMem</name>
+      <values class="BoolTable">
+        <table>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</table>
+      </values>
+    </result>
+    <result>
+      <name>EscreveMem</name>
+      <values class="BoolTable">
+        <table>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA==</table>
+      </values>
+    </result>
+    <result>
+      <name>Branch</name>
+      <values class="BoolTable">
+        <table>AAICAgECAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAAgICAgICAgACAgICAgICAgICAgICAgICAgICAg==</table>
+      </values>
+    </result>
+    <result>
+      <name>ALUOp0</name>
+      <values class="BoolTable">
+        <table>AQICAgACAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAAgICAgICAgACAgICAgICAgICAgICAgICAgICAg==</table>
+      </values>
+    </result>
+    <result>
+      <name>ALUOp1</name>
+      <values class="BoolTable">
+        <table>AAICAgECAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAAgICAgICAgACAgICAgICAgICAgICAgICAgICAg==</table>
+      </values>
+    </result>
+    <result>
+      <name>addi</name>
+      <values class="BoolTable">
+        <table>AAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAg==</table>
+      </values>
+    </result>
+    <result>
+      <name>jump</name>
+      <values class="BoolTable">
+        <table>AAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</table>
+      </values>
+    </result>
+  </results>
+</truthTable>
