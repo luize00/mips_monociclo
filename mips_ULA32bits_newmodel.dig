@@ -270,6 +270,10 @@
           <string>Label</string>
           <string>Operação</string>
         </entry>
+        <entry>
+          <string>Bits</string>
+          <int>2</int>
+        </entry>
       </elementAttributes>
       <pos x="460" y="40"/>
     </visualElement>
@@ -550,6 +554,10 @@ end loop</dataString>
         <entry>
           <string>Label</string>
           <string>Saida</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
         </entry>
       </elementAttributes>
       <pos x="1720" y="2840"/>

@@ -8,7 +8,7 @@
       <elementAttributes>
         <entry>
           <string>AddrBits</string>
-          <int>15</int>
+          <int>24</int>
         </entry>
         <entry>
           <string>isProgramMemory</string>
@@ -31,18 +31,18 @@
           <string>/home/luiz/teste.hex</string>
         </entry>
       </elementAttributes>
-      <pos x="520" y="660"/>
+      <pos x="420" y="660"/>
     </visualElement>
     <visualElement>
       <elementName>Splitter</elementName>
       <elementAttributes>
         <entry>
           <string>Input Splitting</string>
-          <string>16</string>
+          <string>32</string>
         </entry>
         <entry>
           <string>Output Splitting</string>
-          <string>15,1</string>
+          <string>31,1</string>
         </entry>
       </elementAttributes>
       <pos x="340" y="660"/>
@@ -61,10 +61,10 @@
         </entry>
         <entry>
           <string>Bits</string>
-          <int>16</int>
+          <int>32</int>
         </entry>
       </elementAttributes>
-      <pos x="620" y="680"/>
+      <pos x="520" y="680"/>
     </visualElement>
     <visualElement>
       <elementName>In</elementName>
@@ -80,68 +80,36 @@
         </entry>
         <entry>
           <string>Bits</string>
-          <int>16</int>
+          <int>32</int>
         </entry>
       </elementAttributes>
-      <pos x="280" y="660"/>
-    </visualElement>
-    <visualElement>
-      <elementName>And</elementName>
-      <elementAttributes>
-        <entry>
-          <string>inverterConfig</string>
-          <inverterConfig>
-            <string>In_1</string>
-          </inverterConfig>
-        </entry>
-      </elementAttributes>
-      <pos x="420" y="680"/>
-    </visualElement>
-    <visualElement>
-      <elementName>In</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>Id</string>
-        </entry>
-      </elementAttributes>
-      <pos x="340" y="720"/>
-    </visualElement>
-    <visualElement>
-      <elementName>RAMDualPort</elementName>
-      <elementAttributes/>
-      <pos x="740" y="680"/>
-    </visualElement>
-    <visualElement>
-      <elementName>BlockRAMDualPort</elementName>
-      <elementAttributes/>
-      <pos x="740" y="820"/>
+      <pos x="300" y="660"/>
     </visualElement>
   </visualElements>
   <wires>
     <wire>
-      <p1 x="340" y="720"/>
-      <p2 x="420" y="720"/>
-    </wire>
-    <wire>
       <p1 x="360" y="660"/>
-      <p2 x="520" y="660"/>
+      <p2 x="420" y="660"/>
     </wire>
     <wire>
-      <p1 x="280" y="660"/>
+      <p1 x="300" y="660"/>
       <p2 x="340" y="660"/>
     </wire>
     <wire>
-      <p1 x="580" y="680"/>
-      <p2 x="620" y="680"/>
+      <p1 x="480" y="680"/>
+      <p2 x="520" y="680"/>
     </wire>
     <wire>
       <p1 x="360" y="680"/>
-      <p2 x="400" y="680"/>
+      <p2 x="380" y="680"/>
     </wire>
     <wire>
-      <p1 x="480" y="700"/>
-      <p2 x="520" y="700"/>
+      <p1 x="380" y="700"/>
+      <p2 x="420" y="700"/>
+    </wire>
+    <wire>
+      <p1 x="380" y="680"/>
+      <p2 x="380" y="700"/>
     </wire>
   </wires>
   <measurementOrdering/>
